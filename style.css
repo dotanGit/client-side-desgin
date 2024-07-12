@@ -10,28 +10,33 @@ body h1 {
     font-size: 50px;
     line-height: 64px;
     color: #222;
+    font-weight: bold;
 }
 
 body h2 {
     font-size: 46px;
     line-height:54px;
     color: #222;
+    font-weight: bold;
 }
 
 body h4 {
     font-size: 20px;
     color: #222;
+    font-weight: bold;
 }
 
 body h6 {
     font-weight: 700;
     font-size: 12px;
+    font-weight: bold;
 }
 
 body p {
     font-size: 16px;
     color: #465b52;
     margin: 15px 0 20px 0;
+    font-weight: bold;
 }
 
 .section-p1 {
@@ -51,6 +56,18 @@ button.normal {
     border-radius: 4px;
     cursor: pointer;
     border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
     outline: none;
     transition: 0.2s;
 }
@@ -356,4 +373,95 @@ left: 2px;
 #banner button:hover {
     background-color: #088178;
     color: white;
+}
+
+/* ----- Second Banner ----- */
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner h4 {
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    color: white;
+    border: 1px solid #088178;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b7.jpg);
+    min-width: 31%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner-box3 {
+    background-image: url(img/banner/b18.jpg);
+}
+
+#banner3 h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
 }
