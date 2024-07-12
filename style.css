@@ -230,6 +230,13 @@ left: 2px;
     text-align: center;
 }
 
+#product1 .products-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 #product1 .pro {
     width: 23%;
     min-width: 250px;
