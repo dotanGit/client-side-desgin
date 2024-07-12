@@ -178,3 +178,31 @@ body {
   }
   
 
+/* -------------------------------------- Features ------------------------------ */
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature-icon {
+    width: 200px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+#feature .fe-box {
+    width: 200px; 
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 1px 1px 84px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+    width: 100%;
+}
