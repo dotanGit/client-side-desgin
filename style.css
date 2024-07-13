@@ -210,13 +210,6 @@ left: 2px;
 
 /* ------ Features Icons----- */
 
-/* #feature {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
 #feature .fe-box {
     width: 180px;
     text-align: center;
@@ -377,12 +370,6 @@ left: 2px;
 }
 
 /* ----- Second Banner ----- */
-
-/* #sm-banner {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
 
 #sm-banner .banner-box {
     display: flex;
