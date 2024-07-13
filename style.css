@@ -210,12 +210,12 @@ left: 2px;
 
 /* ------ Features Icons----- */
 
-#feature {
+/* #feature {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 #feature .fe-box {
     width: 180px;
@@ -241,19 +241,20 @@ left: 2px;
     background-color: #d5f2f7;
 }
 
-#feature  .col-lg-2.col-md-4.col-sm-6:nth-of-type(2) .fe-box h6 {
+
+#feature .col-xl-2.col-lg-4.col-sm-6:nth-of-type(2) .fe-box h6 {
     background-color: #fcdede;
 }
-#feature .col-lg-2.col-md-4.col-sm-6:nth-of-type(3) .fe-box h6 {
+#feature .col-xl-2.col-lg-4.col-sm-6:nth-of-type(3) .fe-box h6 {
     background-color: #cdebbc;
 }
-#feature .col-lg-2.col-md-4.col-sm-6:nth-of-type(4) .fe-box h6 {
+#feature .col-xl-2.col-lg-4.col-sm-6:nth-of-type(4) .fe-box h6 {
     background-color: #bed8f9;
 }
-#feature .col-lg-2.col-md-4.col-sm-6:nth-of-type(5) .fe-box h6 {
+#feature .col-xl-2.col-lg-4.col-sm-6:nth-of-type(5) .fe-box h6 {
     background-color: rgb(221, 188, 236);
 }
-#feature .col-lg-2.col-md-4.col-sm-6:nth-of-type(6) .fe-box h6 {
+#feature .col-xl-2.col-lg-4.col-sm-6:nth-of-type(6) .fe-box h6 {
     background-color: #ebd5bc;
 }
 
