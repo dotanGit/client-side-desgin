@@ -376,11 +376,11 @@ left: 2px;
 
 /* ----- Second Banner ----- */
 
-#sm-banner {
+/* #sm-banner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 #sm-banner .banner-box {
     display: flex;
@@ -388,7 +388,7 @@ left: 2px;
     justify-content: center;
     align-items: flex-start;
     background-image: url(img/banner/b17.jpg);
-    min-width: 650px;
+    min-width: 600px;
     height: 50vh;
     background-size: cover;
     background-position: center;
