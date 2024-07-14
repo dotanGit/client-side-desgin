@@ -751,7 +751,55 @@ footer .my-account {
 }
 
 
-/* ------------- @media ------------- */
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    About
+---------------------------------------------------------------------------------------------------------------------*/
+
+#page-header.about-header {
+    background-image: url('img/about/banner.png');
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    margin-left: 40px;
+}
+
+#moving-txt {
+    background-color: #ccc;
+    width: 100%;
+}
+
+#about-app {
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 70%;
+    margin: 30px auto 0 auto;
+
+}
+
+#about-app .video video {
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    @media
+---------------------------------------------------------------------------------------------------------------------*/
 
 /* This is for the navbar button to resize when the page is small */
 @media (max-width:775px) {
@@ -811,6 +859,16 @@ footer .my-account {
         background-position: top 30% right 60%;
     }
 
+    #newsletter .form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #feature {
+        margin-left: 55px;
+    }
+
     /* Single Product */
 
     #prodetails {
@@ -844,6 +902,25 @@ footer .my-account {
     }
 
     #blog .blog-details {
+        width: 100%;
+    }
+
+    /* About */
+    
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #about-head div {
+        padding-left: 0px;
+    }
+
+    #about-head .video {
         width: 100%;
     }
 
